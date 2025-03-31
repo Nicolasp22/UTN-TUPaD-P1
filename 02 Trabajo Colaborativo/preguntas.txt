@@ -1,0 +1,35 @@
+1-
+¿Qué es GitHub?
+GitHub es una aplicacion basada en el controlador de versiones Git que permite almacenar codigo y trabajarlo en conjunto con otras personas.
+¿Cómo crear un repositorio en GitHub?
+Se puede hacer desde la página web de github accediendo a nuestro usuario y utilizando el boton New. 
+¿Cómo crear una rama en Git?
+Desde la terminal se ingresa el comando git branch "nombre de la rama" 
+¿Cómo cambiar a una rama en Git?
+Desde la terminal se ingresa el comando git checkout "nombre de la rama"
+¿Cómo fusionar ramas en Git?
+Una vez dentro de la rama correcta, desde la terminal se ingresa el comando git merge "nombre de la otra rama a combinar"
+¿Cómo crear un commit en Git?
+Desde la terminal se ingresa el comando git add y luego git commit
+¿Cómo enviar un commit a GitHub?
+
+¿Qué es un repositorio remoto?
+¿Cómo agregar un repositorio remoto a Git?
+¿Cómo empujar cambios a un repositorio remoto?
+¿Cómo tirar de cambios de un repositorio remoto?
+¿Qué es un fork de repositorio?
+¿Cómo crear un fork de un repositorio?
+
+¿Cómo enviar una solicitud de extracción (pull request) a un repositorio?
+¿Cómo aceptar una solicitud de extracción?
+¿Qué es un etiqueta en Git? ¿Cómo crear una etiqueta en Git?
+¿Cómo enviar una etiqueta a GitHub?
+¿Qué es un historial de Git?
+¿Cómo ver el historial de Git?
+¿Cómo buscar en el historial de Git?
+¿Cómo borrar el historial de Git?
+¿Qué es un repositorio privado en GitHub?
+¿Cómo crear un repositorio privado en GitHub?
+¿Cómo invitar a alguien a un repositorio privado en GitHub? ¿Qué es un repositorio público en GitHub?
+¿Cómo crear un repositorio público en GitHub?
+¿Cómo compartir un repositorio público en GitHub? 
