@@ -10,12 +10,15 @@ Desde la terminal se ingresa el comando git checkout "nombre de la rama"
 ¿Cómo fusionar ramas en Git?
 Una vez dentro de la rama correcta, desde la terminal se ingresa el comando git merge "nombre de la otra rama a combinar"
 ¿Cómo crear un commit en Git?
-Desde la terminal se ingresa el comando git add y luego git commit
+Desde la terminal se ingresa el comando git add "nombre de archivo o ." y luego git push
 ¿Cómo enviar un commit a GitHub?
-
+Para enviarlo se utiliza git commit se puede agregar un comentario con -m "comentario"
 ¿Qué es un repositorio remoto?
+Un repositorio remoto es un almacenamiento en línea donde se guardan copias de un proyecto, permitiendo la colaboración entre varios desarrolladores
 ¿Cómo agregar un repositorio remoto a Git?
+Se utiliza el siguiente comando git remote add origin "url del repositorio de github"
 ¿Cómo empujar cambios a un repositorio remoto?
+Se utiliza: git add . --> git commit -m "Primer commit" --> git push -u origin main
 ¿Cómo tirar de cambios de un repositorio remoto?
 ¿Qué es un fork de repositorio?
 ¿Cómo crear un fork de un repositorio?
