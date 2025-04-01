@@ -20,19 +20,38 @@ Se utiliza el siguiente comando git remote add origin "url del repositorio de gi
 ¿Cómo empujar cambios a un repositorio remoto?
 Se utiliza: git add . --> git commit -m "Primer commit" --> git push -u origin main
 ¿Cómo tirar de cambios de un repositorio remoto?
+Se utiliza el comando git pull origin "rama". Si se quieren descargar sin fusionar los cambios se usa git fetch origin
 ¿Qué es un fork de repositorio?
+Un fork es la copia de un repositorio que se crea en una cuenta dentro de github
 ¿Cómo crear un fork de un repositorio?
-
+Desde github se accede al repositorio y se selecciona el boton fork
 ¿Cómo enviar una solicitud de extracción (pull request) a un repositorio?
+Se utiliza el boton contribute --> pull request
 ¿Cómo aceptar una solicitud de extracción?
-¿Qué es un etiqueta en Git? ¿Cómo crear una etiqueta en Git?
+Dentro del repositorio se accede a la pestaña pull request luego selecciona "merge pull request" y "confirm merge"
+¿Qué es un etiqueta en Git? 
+En Git, una etiqueta es un marcador que se usa para señalar un punto específico en la historia del repositorio
+¿Cómo crear una etiqueta en Git?
+Se utiliza git tag "nombre de la etiqueta"
 ¿Cómo enviar una etiqueta a GitHub?
+git push origin "nombre de la etiqueta"
 ¿Qué es un historial de Git?
+El historial de Git es el registro de todos los cambios realizados en un repositorio, organizados en forma de commits.
 ¿Cómo ver el historial de Git?
+Se utiliza el comando git log
 ¿Cómo buscar en el historial de Git?
+Utilizo git log --grep="palabra a buscar"
 ¿Cómo borrar el historial de Git?
+Uso rm -rf .git  # Borra el repositorio Git
 ¿Qué es un repositorio privado en GitHub?
+Un repositorio privado en GitHub es un repositorio cuyo acceso está restringido, lo que significa que solo las personas o colaboradores específicos pueden ver o modificar el código dentro de él. A diferencia de los repositorios públicos, que son accesibles por cualquiera en Internet.
 ¿Cómo crear un repositorio privado en GitHub?
-¿Cómo invitar a alguien a un repositorio privado en GitHub? ¿Qué es un repositorio público en GitHub?
+Se puede hacer desde la página web de github accediendo a nuestro usuario y utilizando el boton New, luego se abre un desplegable donde se selecciona la opcion privado. 
+¿Cómo invitar a alguien a un repositorio privado en GitHub? 
+Una vez dentro del repositorio se accede a settings --> access --> collaborators --> add people
+¿Qué es un repositorio público en GitHub?
+Un repositorio público en GitHub es un repositorio cuyo acceso no está restringido, lo que significa que son accesibles por cualquiera en Internet.
 ¿Cómo crear un repositorio público en GitHub?
+Se puede hacer desde la página web de github accediendo a nuestro usuario y utilizando el boton New, al desplegarse opciones selecciono public que de todas formas es la opcion por default
 ¿Cómo compartir un repositorio público en GitHub? 
+Puedo copiar la URL
