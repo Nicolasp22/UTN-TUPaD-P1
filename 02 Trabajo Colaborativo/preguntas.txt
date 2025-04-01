@@ -55,3 +55,7 @@ Un repositorio público en GitHub es un repositorio cuyo acceso no está restrin
 Se puede hacer desde la página web de github accediendo a nuestro usuario y utilizando el boton New, al desplegarse opciones selecciono public que de todas formas es la opcion por default
 ¿Cómo compartir un repositorio público en GitHub? 
 Puedo copiar la URL
+
+Los siguientes repositorios corresponden a las demas actividades del TP2. Ademas cree subcarpetas con estos mismos archivos. 
+https://github.com/Nicolasp22/prueba
+https://github.com/Nicolasp22/conflict-exercise
