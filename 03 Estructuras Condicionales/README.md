@@ -1,0 +1,1 @@
+En el archivo pagola_TP-03.py dejo asentada la solucion a cada ejercicio propuesto en el TP3, separados por numero.
