@@ -109,6 +109,8 @@ print(media)
 # 10)
 numero = input("Ingrese un número: ")
 
+# for i in range(0,3,1):
+#    print()
 if numero.isdigit():
     invertido = numero[::-1]
     print(f"El número invertido es: {invertido}")
