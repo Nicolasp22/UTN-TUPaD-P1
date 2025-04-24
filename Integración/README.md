@@ -1,21 +1,36 @@
-- OBJETIVO <br>
-El programa "trabajoGrupal.py" tiene como objetivo la conversión de numeros ingresados por un usuario al sistema numerico seleccionado, entre los cuales se encuentra el binario, octal y hexadecimal. 
+# Conversor de Sistemas Numéricos - trabajoGrupal.py
 
-- VALIDACIONES <br>
-En primera instancia buscamos validar que el ingreso de informacion sea correcto programando mensajes de error para posibles datos inválidos como numeros con decimales, negativos o cadenas de texto.
-Una vez ingresa un dato valido se le solicita al usuario seleccionar un sistema al cual convertir o la opcion de elegir todos. Aquí validamos que ingrese una de las letras disponibles, le quitamos los espacios y la convertimos a mayuscula para evitar problemas de tipado.
-En caso de no cumplirse alguna condicion se detiene la ejecución.
+## Objetivo
+El programa `trabajoGrupal.py` es un conversor numérico interactivo que permite transformar números decimales ingresados por el usuario a otros sistemas numéricos: binario, octal o hexadecimal. La ejecución se mantiene en un ciclo hasta que el usuario ingrese el comando "F" para finalizar.
 
-- PROCESO <br>
-Segun la letra que selecciona el usuario es el sistema al cual se convertirá el numero anteriormente solicitado , con la opcion de escojer todas.
-El resultado se muestra mediante la terminal y finaliza la ejecución.
+## Validaciones de Entrada
 
-- GLOSARIO <br>
-B = BINARIO
-O = OCTAL 
-H = HEXADECIMAL
-Z = TODOS
+### Selección del Sistema Numérico
+1. El programa solicita al usuario que elija el sistema numérico de destino
+2. Realiza las siguientes validaciones:
+   - Elimina espacios en blanco y convierte la entrada a mayúsculas
+   - Verifica que la opción ingresada sea válida (entre las disponibles)
+   - Muestra mensajes de error descriptivos para entradas inválidas
 
-- MIEMBROS <br>
-MATIAS ORELLANA
-NICOLAS PAGOLA
+### Ingreso del Número Decimal
+1. Una vez seleccionado el sistema objetivo, se solicita el número decimal a convertir
+2. Validaciones implementadas:
+   - Confirma que la entrada sea un número decimal válido
+   - Verifica que cumpla con los parámetros establecidos
+   - En caso de error, detiene la ejecución e informa al usuario
+
+## Proceso de Conversión
+1. Según la opción seleccionada por el usuario, realiza la conversión a:
+   - Binario (base 2)
+   - Octal (base 8)
+   - Hexadecimal (base 16)
+   - Opción para mostrar todas las conversiones simultáneamente
+
+2. El resultado se muestra formateado en la terminal con el formato:
+########################################
+"Sistema numérico": "Valor convertido"
+########################################
+
+3. Finalizada la conversión, el programa:
+- Muestra el resultado claramente formateado
+- Termina la ejecución o reinicia el ciclo según la acción del usuario
