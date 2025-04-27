@@ -1,10 +1,9 @@
 # Conversor de Sistemas Numéricos - trabajoGrupal.py
 
 ## Objetivo
-El programa `trabajoGrupal.py` es un conversor numérico interactivo que permite transformar números decimales ingresados por el usuario a otros sistemas numéricos: binario, octal o hexadecimal. La ejecución se mantiene en un ciclo hasta que el usuario ingrese el comando "F" para finalizar.
+El programa `trabajoGrupal.py` es un conversor numérico interactivo que permite transformar números decimales ingresados por el usuario a otros sistemas numéricos: binario, octal o hexadecimal, y también pasar de binario a decimal. La ejecución se mantiene en bucle hasta que el usuario ingrese el comando "F" para finalizar.
 
 ## Validaciones de Entrada
-
 ### Selección del Sistema Numérico
 1. El programa solicita al usuario que elija el sistema numérico de destino
 2. Realiza las siguientes validaciones:
