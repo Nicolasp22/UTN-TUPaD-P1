@@ -24,9 +24,10 @@ while True: #bucle para que el usuario ingrese un valor correcto
         print("Ingrese un numero entero positivo en base decimal para convertirlo.")
     elif opciones == "D":
         print("Ingrese un numero binario para convertirlo a decimal.")
+        
     print("-"*40)
 
-    
+
     while True:        
         numero_user=input("Numero --> ")
         
@@ -58,8 +59,6 @@ while True: #bucle para que el usuario ingrese un valor correcto
         else:
             break
     
-    # opciones = opciones.upper().strip() #lo saco porque ya formateo el str en el input
-
     
     numero=int(numero_user) #se convierte el str a int
     
@@ -70,7 +69,7 @@ while True: #bucle para que el usuario ingrese un valor correcto
         while num>0: #While donde se divide el numero entre 2 hasta obtener 0
             resultado.append(str(num%2))
             num=num//2
-        binario=''.join(reversed(resultado)) #al final se joinea al revez
+        binario=''.join(reversed(resultado)) #al final se une al reves
         
         
     ############# OCTAL ###############
@@ -81,9 +80,7 @@ while True: #bucle para que el usuario ingrese un valor correcto
             resultado.append(str(num%8))
             num=num//8 
         octal=''.join(reversed(resultado))
-        
-# HASTA ACA EXPLICO YO
-        
+                
     ############# HEXADECIMAL ###############
     if opciones in ("H", "Z"): #Opcion hexadecimal
         resultado=[]
