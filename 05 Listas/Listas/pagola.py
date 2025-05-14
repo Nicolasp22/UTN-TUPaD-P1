@@ -58,7 +58,7 @@ compras[2][0] = "jugo"
 compras[1][1] = "tallarines"
 compras[0].remove("pan") 
 
-print(compras)
+print(compras) 
 
 
 # Ejercicio 10
