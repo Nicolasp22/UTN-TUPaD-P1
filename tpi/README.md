@@ -31,3 +31,5 @@ Se grafica una comparación entre los tiempos de ambas funciones utilizando matp
 - Salida esperada
 Una tabla con los tiempos de ejecución por cada lista.
 Un gráfico que muestra cómo varía el rendimiento según el tamaño de la lista, permitiendo observar cómo la recursividad puede volverse menos eficiente en listas grandes.
+
+Link video presentación https://youtu.be/G23fAD_XRNU
