@@ -1,0 +1,1 @@
+Mi nombre es Nicolas Pagola dentro de esta carpeta hay un archivo pdf de nombre preguntas donde se detalla cada respuesta y tambien el link a los otros repositorios relevantes en el TP.
